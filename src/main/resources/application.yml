@@ -1,0 +1,15 @@
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/jwt_security
+        username: prodonik
+        password: Dost0n1k
+        driver-class-name: org.postgresql.Driver
+    jpa:
+        open-in-view: false
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+        properties:
+            hibernate:
+                format_sql: true
+        database: postgresql
